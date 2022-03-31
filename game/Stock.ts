@@ -1,9 +1,6 @@
-class Stock{
-    public resource: Resource;
-    public quantity: number;
+import { IResource } from "./IResource";
 
-    constructor(resource: Resource, quantity: number){
-        this.resource = resource;
-        this.quantity = quantity;
-    }
+interface IStock{
+    resource: IResource;
+    quantity: number;
 }
