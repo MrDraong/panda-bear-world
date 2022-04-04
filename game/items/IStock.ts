@@ -1,6 +1,6 @@
 import { IResource } from "./IResource";
 
-interface IStock{
+export interface IStock{
     resource: IResource;
     quantity: number;
 }
