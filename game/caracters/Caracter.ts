@@ -1,6 +1,6 @@
 import { ICaracter } from "./ICaracter";
 
-class Caracter implements ICaracter {
+export class Caracter implements ICaracter {
     public name: string;
     public strength: number;
     public gold: number;

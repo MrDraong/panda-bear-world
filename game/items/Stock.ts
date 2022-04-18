@@ -1,6 +1,6 @@
 import { Resource } from "./Resource";
 
-class Stock{
+export class Stock{
     public resource: Resource;
     public quantity: number;
 

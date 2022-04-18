@@ -1,7 +1,7 @@
 import { IBuilding } from "./IBuilding";
 import { Resource } from "../items/Resource";
 
-class Building implements IBuilding {
+export class Building implements IBuilding {
     public name: string;
     public resource: Resource;
     public nbWorkers: number;
